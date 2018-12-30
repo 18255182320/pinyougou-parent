@@ -6,10 +6,6 @@ import org.csource.fastdfs.StorageClient1;
 import org.csource.fastdfs.StorageServer;
 import org.csource.fastdfs.TrackerClient;
 import org.csource.fastdfs.TrackerServer;
-
-/**
- * 公共
- */
 public class FastDFSClient {
 
 	private TrackerClient trackerClient = null;
