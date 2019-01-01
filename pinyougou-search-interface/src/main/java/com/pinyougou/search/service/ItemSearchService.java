@@ -17,4 +17,9 @@ public interface ItemSearchService {
 	 */
 	public void importList(List list);
 
+	/**
+	 * 删除商品列表
+	 * @param goodsIds  (SPU)
+	 */
+	public void deleteByGoodsIds(List goodsIds);
 }

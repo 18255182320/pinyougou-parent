@@ -92,7 +92,8 @@
   </dependencies>
   
   
-    <build>  
+    <build>
+		<defaultGoal>compile</defaultGoal>
 	  <plugins>
 	      <plugin>
 				<groupId>org.apache.tomcat.maven</groupId>

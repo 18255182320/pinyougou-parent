@@ -13,7 +13,7 @@ app.controller('goodsController' ,function($scope,$controller   ,goodsService,it
 	}    
 	
 	//分页
-	$scope.findPage=function(page,rows){			
+	$scope.findPage=function(page,rows){
 		goodsService.findPage(page,rows).success(
 			function(response){
 				$scope.list=response.rows;	
@@ -82,9 +82,9 @@ app.controller('goodsController' ,function($scope,$controller   ,goodsService,it
 	    
 	    $scope.itemCatList=[];//商品分类列表
 	  //加载商品分类列表
-	  $scope.findItemCatList=function(){		
+	  $scope.findItemCatList=function(){
 	  	itemCatService.findAll().success(
-	  			function(response){							
+	  			function(response){
 	  				for(var i=0;i<response.length;i++){
 	  					$scope.itemCatList[response[i].id]=response[i].name;
 	  				}

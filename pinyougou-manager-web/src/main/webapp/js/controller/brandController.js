@@ -13,7 +13,7 @@ app.controller('brandController' ,function($scope,$controller   ,brandService){
 	}    
 	
 	//分页
-	$scope.findPage=function(page,rows){			
+	$scope.findPage=function(page,rows){
 		brandService.findPage(page,rows).success(
 			function(response){
 				$scope.list=response.rows;	
