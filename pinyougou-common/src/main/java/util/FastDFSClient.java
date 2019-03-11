@@ -7,7 +7,7 @@ import org.csource.fastdfs.StorageServer;
 import org.csource.fastdfs.TrackerClient;
 import org.csource.fastdfs.TrackerServer;
 public class FastDFSClient {
-
+//test
 	private TrackerClient trackerClient = null;
 	private TrackerServer trackerServer = null;
 	private StorageServer storageServer = null;
